@@ -2,6 +2,7 @@
 import os
 from pathlib import Path
 
+import geopandas as gpd
 import pandas as pd
 import pytest
 from numpy.testing import assert_array_almost_equal as equal
